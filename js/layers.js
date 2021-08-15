@@ -72,7 +72,35 @@ addLayer("p", {
         },
         21: {
             description: "watch gay femboy hentai (ALLAH IS VERY VERY VERY VERY ANGRY SO NOT HALAL MODE)",
-            cost: new Decimal(5e40),
+            cost: new Decimal(2e40),
+        },
+        22: {
+            description: "dont watch gay femboy hentai (allah is very proud of you for not doing a haram)",
+            cost: new Decimal(2e40),
+        },
+        23: {
+            description: "read the quran (reading quran is very halal)",
+            cost: new Decimal(1e73),
+        },
+        24: {
+            description: "read the quran 10 more times (extremely halal)",
+            cost: new Decimal(1e200),
+        },
+        25: {
+            description: "read the quran 1e69 times (insane amount of halal)",
+            cost: new Decimal("1e420"),
+        },
+        26: {
+            description: "read the quran 1e1000 times (insane extremely amount of halal)",
+            cost: new Decimal("1e1751"),
+        },
+        27: {
+            description: "pray 1e69420 times (allah likes prayers)",
+            cost: new Decimal("1e10000"),
+        },
+        28: {
+            description: "become allah (you arent supposed to do that only allah can be allah)",
+            cost: new Decimal("1e1210112"),
         },
     },
     layerShown(){return true}

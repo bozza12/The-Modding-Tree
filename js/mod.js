@@ -13,14 +13,15 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "so halal mode",
+	num: "0.1",
+	name: "become allah??????",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
 		- Added Allah.<br>
-		- Added Allah.`
+		<h3>v0.1</h3><br>
+		- Added the final upgrade.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, please go touch grass.`
 
@@ -52,7 +53,13 @@ function getPointGen() {
 	if (hasUpgrade('p', 18)) gain = gain.times(99999999)
 	if (hasUpgrade('p', 19)) gain = gain.times(99999999999)
 	if (hasUpgrade('p', 21)) gain = gain.times(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-
+	if (hasUpgrade('p', 22)) gain = gain.times(6969696969696969696969696969)
+	if (hasUpgrade('p', 23)) gain = gain.times(9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999)
+	if (hasUpgrade('p', 24)) gain = gain.times(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999)
+	if (hasUpgrade('p', 25)) gain = gain.times("1e1111")
+	if (hasUpgrade('p', 26)) gain = gain.times("1e6969")
+	if (hasUpgrade('p', 27)) gain = gain.times("1e999999")
+	if (hasUpgrade('p', 28)) gain = gain.times("1e99999999999")
 	return gain
 }
 
@@ -66,7 +73,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("e28000000000"))
 }
 
 
